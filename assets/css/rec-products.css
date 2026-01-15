@@ -1,0 +1,36 @@
+/* Recommended products */
+.rec-products {
+    border: 0.1px solid gray;
+border-radius: 20px;
+    margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.rec-products .product {
+    align-content: center;
+    margin: 10px;
+  flex: 1 0 auto;
+  /*width: 33.3%;  3 products per row on small screens */
+  height: auto;
+}
+.rec-products .product img {
+  border: 0.1px solid gray;
+  border-radius: 50%;
+  width: 60px;
+  height: auto;
+}
+/*@media (min-width: 475px) {
+  .rec-products .product {
+    width: 25%;   4 products per row on medium screen  
+  }
+}
+@media (min-width: 786px) {
+  .rec-products .product {
+    width: 12.5%; /*  8 products per row on medium screen  
+  }
+}
+@media (min-width: 1024px) {
+  .rec-products .product {
+    width: 8.3%; /*  12 products per row on medium screen  
+  }
+}*/

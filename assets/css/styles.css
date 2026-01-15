@@ -1,0 +1,60 @@
+@import url("./carousel.css");
+@import url("./rec-products.css");
+@import url("./products.css");
+:root {
+  --color-purple: rgb(255, 0, 89);
+}
+
+*,
+body {
+  margin: 0;
+}
+
+.foot-menu {
+  z-index: 20;
+  position: fixed;
+  transform: translateY(90vh);
+  height: 10vh;
+  background-color: var(--color-purple);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot-menu .option {
+  cursor: pointer;
+  flex: 1 0 auto;
+  text-align: center;
+  font-weight: bolder;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+  .foot-menu .option {
+    display: grid;
+  }
+}
+@media (max-width: 425px) {
+  .foot-menu .option span {
+    display: none;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  justify-self: center;
+}
+/* Products */
+.home-products{
+  margin-top: 10px;
+}
