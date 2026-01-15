@@ -1,8 +1,8 @@
 @import url("./carousel.css");
 @import url("./rec-products.css");
 @import url("./products.css");
-*{
-  font-family: Montserrat, sans-serif;
+* {
+  font-family: Poppins, sans-serif;
 }
 :root {
   --color-purple: rgb(255, 0, 89);
@@ -58,6 +58,16 @@ body {
   justify-self: center;
 }
 /* Products */
-.home-products{
+.home-products {
   margin-top: 10px;
+}
+.header {
+  text-align: start;
+  width: 100%;
+  background: var(--color-purple);
+}
+.header h2 {
+  color: #fff;
+  padding: 20px;
+  text-align: start;
 }
