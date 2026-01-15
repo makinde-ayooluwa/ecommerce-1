@@ -1,3 +1,8 @@
 [
-    
+    {
+        "image":"assets/images/RWD.PNG",
+        "name":"A bag of rice",
+        "price":75000,
+        "currency":"NGN"
+    }
 ]

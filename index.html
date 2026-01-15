@@ -119,7 +119,7 @@
                                         recPage.innerHTML += `
                                         <div class="product">
                                             <img src="${recProduct.image}" />
-                                            </div>
+                                        </div>
                                         `;
                                     });
                                 }
@@ -128,11 +128,29 @@
                         </div>
                         <h4>PRODUCTS</h4>
                         <div class="products">
+                            <!-- Test Product -->
+                             <div class="productCard">
+                                <div class="container">
+                                    Product
+                                </div>
+                             </div>
+                             <div class="productCard">
+                                <div class="container">
+                                    <img src="assets/images/RWD.PNG" alt="">
+                                    <div class="product-details">
+                                        <h3 class="title">A Bag of Rice</h3>
+                                    </div>
+                                </div>
+                             </div>
                             <!-- Products script -->
                             <script>
                                 const productsPage = document.querySelector(".products");
-                                function fetchProducts() {
-
+                                async function fetchProducts() {
+                                    const response = await fetch("./products.json");
+                                    const data = await response.json();
+                                    data.map((product) => {
+                                        productsPage.innerHTML += ``;
+                                    })
                                 }
                             </script>
                         </div>
