@@ -1,49 +1,73 @@
-.products{
-    display: flex;
-    flex-wrap: wrap;
+.products {
+  display: flex;
+  flex-wrap: wrap;
 }
-.products .productCard{
-    flex: 0 0 auto;
-    width: 100%;
-    margin-bottom: 10px;
+.products .productCard {
+  flex: 0 0 auto;
+  width: 100%;
+  margin-bottom: 10px;
 }
-.productCard .container{
-    background: #e3e3e3;
-    border: 3px solid var(--color-purple);
+.productCard .container {
+  background: #e3e3e3;
+  border: 3px solid var(--color-purple);
 }
-.productCard .container img{
-    width: 100%;
+.productCard .container img {
+  width: 100%;
 }
-@media(min-width:410px){
-    .products .productCard{
-        width: 50%;
-    }
+@media (min-width: 410px) {
+  .products .productCard {
+    width: 50%;
+  }
 }
-@media(min-width:768px){
-    .products .productCard{
-        width: 33.3%;
-    }
+@media (min-width: 768px) {
+  .products .productCard {
+    width: 33.3%;
+  }
 }
-@media(min-width:1024px){
-    .products .productCard{
-        width: 25%;
-    }
+@media (min-width: 1024px) {
+  .products .productCard {
+    width: 25%;
+  }
 }
-@media(min-width:1440px){
-    .products .productCard{
-        width: 20%;
-    }
+@media (min-width: 1440px) {
+  .products .productCard {
+    width: 20%;
+  }
 }
-@media(min-width:2560px){
-    .products .productCard{
-        width: 16.6%;
-    }
+@media (min-width: 2560px) {
+  .products .productCard {
+    width: 16.6%;
+  }
 }
 
-.product-details{
-    width: 95%;
+.product-details {
+  width: 95%;
 }
-.product-details .title{
-    text-align: center;
-    font-size: smaller;
+.product-details .title {
+  text-align: center;
+  font-size: smaller;
+  font-weight: light;
+}
+
+.quantity {
+  border: 1px solid gray;
+  overflow: hidden;
+  border-radius: 5px;
+  border-collapse: collapse;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+}
+.quantity span {
+    border: 1px solid gray;
+  padding: 5px;
+  text-align: center;
+  flex: 1 0 auto;
+}
+.quantity span:not(.quantity span:nth-of-type(2)) {
+  cursor: pointer;
+}
+.quantity span:not(.quantity span:nth-of-type(2)):hover {
+  background: gray;
 }
