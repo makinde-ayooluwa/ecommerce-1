@@ -1,6 +1,9 @@
 @import url("./carousel.css");
 @import url("./rec-products.css");
 @import url("./products.css");
+*{
+  font-family: Montserrat, sans-serif;
+}
 :root {
   --color-purple: rgb(255, 0, 89);
 }
