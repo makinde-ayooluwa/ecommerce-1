@@ -31,12 +31,6 @@
             <span>Options</span>
         </div>
     </div>
-    <!-- Foot Menu's Relationship with pages -->
-     <script>
-        const footMenus = document.querySelectorAll("[data-foot-nav]")
-        const pages = document.querySelectorAll("[data-page]")
-        
-     </script>
     <!-- Real Page -->
     <div class="container-fluid">
         <div class="header">
@@ -263,7 +257,14 @@
 
                                 fetchProducts();
                             </script>
-
+                            <!-- Foot Menu's Relationship with pages -->
+                            <script>
+                                const footMenus = document.querySelectorAll("[data-foot-nav]")
+                                const pages = document.querySelectorAll("[data-page]")
+                                for(i = 1; i < pages.length; i ++){
+                                    pages.item(i).classList.add("d-none")
+                                }
+                            </script>
                         </div>
                     </div>
                 </div>
