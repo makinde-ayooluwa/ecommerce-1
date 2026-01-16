@@ -3,1122 +3,309 @@
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
-        "image":"assets/images/admin_1767796562_9367.jpg",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/admin_1767796562_9367.jpg",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/admin_1767796562_9367.jpg",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/admin_1767796562_9367.jpg",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
-        "image":"assets/images/RWD.PNG",
-        "name":"A bag of rice",
-        "price":80000,
-        "currency":"NGN"
-    },
-    {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
+    
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     },
     {
         "image":"assets/images/RWD.PNG",
         "name":"A bag of rice",
         "price":80000,
-        "currency":"NGN"
+        "currency":"NGN",
+        "number-in-stock": 20
     }
 ]

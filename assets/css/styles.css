@@ -13,7 +13,9 @@
 body {
   margin: 0;
 }
-
+.d-none {
+  display: none;
+}
 .foot-menu {
   z-index: 20;
   position: fixed;
