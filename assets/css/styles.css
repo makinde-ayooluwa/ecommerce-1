@@ -1,11 +1,12 @@
 @import url("./carousel.css");
 @import url("./rec-products.css");
 @import url("./products.css");
+@import url("./pagination.css");
 * {
   font-family: Poppins, sans-serif;
 }
 :root {
-  --color-purple: rgb(255, 0, 89);
+  --color-purple: rgb(255, 0, 225);
 }
 
 *,

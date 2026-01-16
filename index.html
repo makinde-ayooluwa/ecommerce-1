@@ -1,15 +1,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test Ecommerce Project with Flutterwave(TEST)</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="fonts.googleapis.com" rel="stylesheet">
-
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="fonts.googleapis.com" rel="stylesheet" />
 </head>
 
 <body>
@@ -45,13 +44,9 @@
                     <!-- Carousel -->
                     <div class="carousel">
                         <!-- Carousel Slide -->
-                        <div class="carousel-slide">
-
-                        </div>
+                        <div class="carousel-slide"></div>
                         <!-- Carousel Controls -->
-                        <div class="carousel-controls">
-
-                        </div>
+                        <div class="carousel-controls"></div>
                     </div>
                     <!-- Carousel Script -->
                     <script>
@@ -68,11 +63,10 @@
                                             </div>
                                         </div>
                                     `;
-                                })
-                                console.log(data)
+                                });
                                 // All Carousels in my code(Optional)
                                 const carousel = document.querySelectorAll(".carousel");
-                                carousel.forEach(singleCarousel => {
+                                carousel.forEach((singleCarousel) => {
                                     // Single Carousel
                                     const carouselItems = singleCarousel.querySelectorAll(".carousel-item");
                                     for (let id = 0; id < carouselItems.length; id++) {
@@ -94,16 +88,14 @@
                                                     item.classList.remove("active-item");
                                                 }
                                             });
-                                        }, 5000)
+                                        }, 5000);
                                     }
                                     increase();
-                                })
+                                });
                             }
                             // Performs all carousel magics
                             performCarouselActions();
-
-
-                        })
+                        });
                     </script>
                     <!-- Carousel End -->
                     <div class="home-products">
@@ -115,7 +107,7 @@
                                 async function fetchRecommended() {
                                     const response = await fetch("./rec-products.json");
                                     const data = await response.json();
-                                    data.forEach(recProduct => {
+                                    data.forEach((recProduct) => {
                                         recPage.innerHTML += `
                                         <div class="product">
                                             <img src="${recProduct.image}" />
@@ -127,39 +119,135 @@
                             </script>
                         </div>
                         <h4>PRODUCTS</h4>
-                        <div class="products">
-                            <!-- Test Product -->
-                             <div class="productCard">
-                                <div class="container">
-                                    Product
+                        <div class="productsPage">
+                            <!-- Products -->
+                            <div class="products"></div>
+                            <!-- Pagination -->
+                            <div class="pagination">
+                                <div class="page-item" id="previous">
+                                    <div class="page-link"><<</div>
                                 </div>
-                             </div>
-                             <div class="productCard">
-                                <div class="container">
-                                    <img src="assets/images/RWD.PNG" alt="">
-                                    <div class="product-details">
-                                        <h3 class="title">A Bag of Rice</h3>
-                                        <span style="text-align: start;">
-                                            Price: NGN 75000
-                                        </span>
-                                        <div class="quantity">
-                                            <span>-</span>
-                                            <span>1</span>
-                                            <span>+</span>
-                                        </div>
-                                    </div>
+                                <div class="js_page_items">
+
                                 </div>
-                             </div>
+                                <div class="page-item" id="next">
+                                    <div class="page-link">>></div>
+                                </div>
+                            </div>
                             <!-- Products script -->
                             <script>
                                 const productsPage = document.querySelector(".products");
                                 async function fetchProducts() {
+                                    let productsPerPage = window.innerWidth < 992 ? 10 : 20;
                                     const response = await fetch("./products.json");
                                     const data = await response.json();
-                                    data.map((product) => {
-                                        productsPage.innerHTML += ``;
+                                    // Pagination Codes
+                                    let html = "";
+                                    let currentProduct = [];
+                                    // Default page
+                                    for (d = 0; d < productsPerPage; d++) {
+                                        if (data[d]) {
+                                            currentProduct.push(data[d]);
+                                        }
+                                    }
+                                    currentProduct.map((product) => {
+                                        html += `
+                                            <div class="productCard">
+                                                <div class="container">
+                                                    <img src="${product.image}" alt="">
+                                                    <div class="product-details">
+                                                        <h3 class="title">${product.name}</h3>
+                                                        <span style="text-align: start;">
+                                                            Price: ${product.currency} <span id="price">${product.price}</span>
+                                                        </span>
+                                                        <div class="quantity">
+                                                            <button id='quantityRemover'>-</button>
+                                                            <button id="quantityNumber">1</button>
+                                                            <button id="quantityAdder">+</button>
+                                                        </div>
+                                                        <div class="add-to-cart">
+                                                            <button>Add to Cart</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        `;
+                                    });
+                                    productsPage.innerHTML = html;
+                                    for (p = 0; p < data.length / productsPerPage; p++) {
+                                        document.querySelector(".productsPage .pagination .js_page_items").innerHTML += `
+                                                <div class="page-item" id="${p}">
+                                                    <div class="page-link">
+                                                        ${p + 1}
+                                                    </div>
+                                                </div>
+                                            `;
+                                    }
+                                    const pageItems = document.querySelectorAll(".productsPage .pagination .js_page_items .page-item");
+                                    pageItems.forEach(pageItem => {
+                                        const id = pageItem.id;
+                                        pageItem.addEventListener("click", function () {
+                                            currentId = id;
+                                            currentProduct = [];
+                                            html = "";
+                                            const startingProduct = id * productsPerPage;
+                                            const endingProduct = startingProduct + productsPerPage;
+                                            for (c = startingProduct; c >= startingProduct && c < endingProduct; c++) {
+                                                if (data[c]) {
+                                                    currentProduct.push(data[c]);
+                                                }
+                                            }
+                                            currentProduct.map((product) => {
+                                                html += `
+                                                <div class="productCard">
+                                                    <div class="container">
+                                                        <img src="${product.image}" alt="">
+                                                        <div class="product-details">
+                                                            <h3 class="title">${product.name}</h3>
+                                                            <span style="text-align: start;">
+                                                                Price: ${product.currency} <span id="price">${product.price}</span>
+                                                            </span>
+                                                            <div class="quantity">
+                                                                <button id='quantityRemover'>-</button>
+                                                                <button id="quantityNumber">1</button>
+                                                                <button id="quantityAdder">+</button>
+                                                            </div>
+                                                            <div class="add-to-cart">
+                                                                <button>Add to Cart</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            `;
+                                            });
+                                            productsPage.innerHTML = html;
+                                            console.log(currentId)
+                                        })
                                     })
+                                    const products = document.querySelectorAll(".products .productCard");
+                                    products.forEach((product) => {
+                                        const quantityAdder = product.querySelector("#quantityAdder");
+                                        const quantityNumber = product.querySelector("#quantityNumber");
+                                        let quantity = 1;
+                                        let price = parseInt(document.querySelector("#price").innerHTML);
+                                        const quantityRemover = product.querySelector("#quantityRemover");
+                                        quantityAdder.addEventListener("click", function () {
+                                            quantity++;
+                                            quantityNumber.innerHTML = quantity;
+                                            product.querySelector("#price").innerHTML = price * quantity;
+                                        });
+                                        quantityRemover.addEventListener("click", function () {
+                                            if (quantity <= 1) {
+                                                quantity = 1;
+                                            } else {
+                                                quantity--;
+                                            }
+                                            quantityNumber.innerHTML = quantity;
+                                            product.querySelector("#price").innerHTML = price * quantity;
+                                        });
+                                    });
                                 }
+                                fetchProducts();
                             </script>
                         </div>
                     </div>
@@ -168,7 +256,7 @@
             </div>
         </div>
         <!-- Foot Menu Space in the page -->
-        <div style="height: 10vh;"></div>
+        <div style="height: 10vh"></div>
     </div>
 </body>
 
