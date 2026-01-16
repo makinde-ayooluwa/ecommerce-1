@@ -143,7 +143,7 @@
                                 async function fetchProducts() {
                                     const productsPerPage = window.innerWidth < 992 ? 10 : 20;
 
-                                    const response = await fetch("./backend/json_datas/products.php");
+                                    const response = await fetch("./products.json"); // "./backend/json_datas/products.php"
                                     const data = await response.json();
 
                                     const paginationContainer = document.querySelector(
@@ -167,7 +167,7 @@
                                                 const product = data[i];
 
                                                 html += `
-                                                <div class="productCard">
+                                                <div class="productCard" id="${product.id}">
                                                     <div class="container">
                                                         <img src="${product.image}" alt="">
                                                         <div class="product-details">
@@ -263,20 +263,9 @@
                                     renderProducts(0);
                                     paginationContainer.firstChild.classList.add("active");
                                 }
-
                                 fetchProducts();
                             </script>
-                            <!-- Add to cart script -->
-                            <script>
-                                function addToCart() {
-                                    const products = document.querySelectorAll(".products .productCard");
-                                    products.forEach(product => {
-                                        const productData = new FormData();
-                                        productData.append();
-                                        productData.append();
-                                    })
-                                }
-                            </script>
+
                         </div>
                     </div>
                 </div>
