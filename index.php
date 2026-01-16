@@ -50,11 +50,13 @@
                     </div>
                     <!-- Carousel Script -->
                     <script>
-                        document.addEventListener("DOMContentLoaded", function () {
+                        document.addEventListener("DOMContentLoaded", function() {
                             async function performCarouselActions() {
                                 const response = await fetch("./carousel.json");
                                 const data = await response.json();
-                                data.forEach(({ image }) => {
+                                data.forEach(({
+                                    image
+                                }) => {
                                     const carouselSlide = document.querySelector(".carousel-slide");
                                     carouselSlide.innerHTML += `
                                         <div class="carousel-item">
@@ -141,7 +143,7 @@
                                 async function fetchProducts() {
                                     const productsPerPage = window.innerWidth < 992 ? 10 : 20;
 
-                                    const response = await fetch("./products.json");
+                                    const response = await fetch("./backend/json_datas/products.php");
                                     const data = await response.json();
 
                                     const paginationContainer = document.querySelector(
@@ -156,11 +158,15 @@
                                         const endIndex = startIndex + productsPerPage;
 
                                         for (let i = startIndex; i < endIndex; i++) {
-                                            if (!data[i]) break;
 
-                                            const product = data[i];
+                                            if (data.length < 1) {
+                                                html = `
+                                                <div style="width: 100%; display: flex; justify-content: center; align-items: center; flex: 1;">Currently out of stocks</div>
+                                                `;
+                                            } else {
+                                                const product = data[i];
 
-                                            html += `
+                                                html += `
                                                 <div class="productCard">
                                                     <div class="container">
                                                         <img src="${product.image}" alt="">
@@ -190,6 +196,9 @@
                                                     </div>
                                                 </div>
                                             `;
+                                            }
+
+
                                         }
 
                                         productsPage.innerHTML = html;
@@ -257,22 +266,47 @@
 
                                 fetchProducts();
                             </script>
-                            <!-- Foot Menu's Relationship with pages -->
+                            <!-- Add to cart script -->
                             <script>
-                                const footMenus = document.querySelectorAll("[data-foot-nav]")
-                                const pages = document.querySelectorAll("[data-page]")
-                                for(i = 1; i < pages.length; i ++){
-                                    pages.item(i).classList.add("d-none")
+                                function addToCart() {
+                                    const products = document.querySelectorAll(".products .productCard");
+                                    products.forEach(product => {
+                                        const productData = new FormData();
+                                        productData.append();
+                                        productData.append();
+                                    })
                                 }
                             </script>
                         </div>
                     </div>
                 </div>
+                <!-- Categories Page -->
+                <div data-page="categories">Categories</div>
+                <div data-page="cart">Cart</div>
                 <!-- Homepage Ends -->
             </div>
         </div>
         <!-- Foot Menu Space in the page -->
         <div style="height: 10vh"></div>
+        <!-- Foot Menu's Relationship with pages -->
+        <script>
+            const footMenus = document.querySelectorAll("[data-foot-nav]")
+            const pages = document.querySelectorAll("[data-page]")
+            // Default page[Homepage]
+            for (i = 1; i < pages.length; i++) {
+                pages.item(i).classList.add("d-none")
+            }
+            // All footmenus on click
+            footMenus.forEach(footMenu => {
+                footMenu.addEventListener("click", function() {
+                    const menuPage = document.querySelector(`[data-page="${footMenu.getAttribute("data-foot-nav")}"]`);
+                    for (i = 0; i < pages.length; i++) {
+                        pages.item(i).classList.add("d-none")
+                    }
+                    menuPage.classList.remove("d-none")
+                })
+            })
+        </script>
     </div>
 </body>
 

@@ -1,0 +1,14 @@
+CREATE TABLE `carts`(
+    `id` INT(255) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `product-id` INT(255) NOT NULL,
+    `user-id` INT(255) NOT NULL,
+    `added-on` VARCHAR(255) NOT NULL DEFAULT CURRENT_TIME
+)
+CREATE TABLE `products`(
+    id INT(255) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    image VARCHAR(255) NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    price VARCHAR(255) NOT NULL,
+    currency VARCHAR(255) NOT NULL,
+    `number-in-stock` INT(255) NOT NULL
+)
