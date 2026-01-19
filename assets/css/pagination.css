@@ -7,6 +7,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.js_page_items .page-item{
+    cursor: pointer;
+}
 .pagination .page-item{
     text-align: center;
     flex: 0 0 auto;
@@ -19,6 +22,7 @@
     justify-content: center;
     font-size: large;
     transition: all 0.75s ease-in-out;
+    cursor: pointer;
 }
 .page-item:hover{
     background: var(--color-purple);

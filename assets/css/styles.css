@@ -74,3 +74,6 @@ body {
   padding: 20px;
   text-align: start;
 }
+[data-foot-nav].active > *{
+  color: yellow;
+}
